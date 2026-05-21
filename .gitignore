@@ -1,0 +1,8 @@
+.env
+*.pt
+embeddings_cache.pt
+images/
+*.jpg
+wandb/
+__pycache__/
+*.pyc
