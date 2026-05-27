@@ -61,9 +61,9 @@ Evaluated on a held-out 20% validation split.
 
 | Metric | Score |
 |---|---|
-| Top-1 Accuracy | — |
-| Top-5 Accuracy | — |
-| Median Distance Error | — km |
+| Top-1 Accuracy | 75% |
+| Top-5 Accuracy | 96% |
+| Median Distance Error | 255 km |
 
 <img width="1819" height="1590" alt="image" src="https://github.com/user-attachments/assets/6d75cc07-4355-4f7d-9472-ea07cc6bfeaa" />
 
