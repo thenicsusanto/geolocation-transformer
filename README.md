@@ -34,7 +34,8 @@ Country prediction
 
 **Stratified sampling** allocates locations per country proportional to a weighted combination of population and area, so large diverse countries (India, Brazil, USA) get more images than small homogeneous ones without completely drowning out smaller countries.
 
-![Country allocation distribution](_assets/country_allocation.png)
+<img width="1990" height="590" alt="image" src="https://github.com/user-attachments/assets/321ae365-75aa-4756-9a22-63f421d6900a" />
+
 
 Images are stored as WebDataset shards on AWS S3, with metadata in DynamoDB.
 
