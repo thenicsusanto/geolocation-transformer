@@ -51,7 +51,7 @@ $$\mathcal{L} = \alpha \cdot \mathcal{L}_{geo} + (1 - \alpha) \cdot \mathcal{L}_
 
 Where $\mathcal{L}_{geo}$ is the expected geodesic distance (in km) from the predicted country distribution to the true location, and $\mathcal{L}_{CE}$ is standard cross-entropy. $\alpha$ controls the tradeoff between geographic accuracy and exact country classification.
 
-![Training and validation loss curves](_assets/loss_curves.png)
+![Uploading image.png…]()
 
 ---
 
