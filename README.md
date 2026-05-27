@@ -49,7 +49,7 @@ CLIP embeddings are pre-computed and cached to avoid redundant GPU compute acros
 
 $$\mathcal{L} = \alpha \cdot \mathcal{L}_{geo} + (1 - \alpha) \cdot \mathcal{L}_{CE}$$
 
-Where $$\mathcal{L}_{geo}$$ is the expected geodesic distance (in km) from the predicted country distribution to the true location, and $$\mathcal{L}_{CE}$$ is cross-entropy loss. $$\alpha$$ controls the tradeoff between geographic accuracy and exact country classification.
+Where `L_geo` is the expected geodesic distance (in km) from the predicted country distribution to the true location, and `L_CE` is cross-entropy loss. $$\alpha$$ controls the tradeoff between geographic accuracy and exact country classification.
 
 <img width="2870" height="1276" alt="image" src="https://github.com/user-attachments/assets/fb4f42e0-8b66-4b49-ba4c-4371877a03f2" />
 
