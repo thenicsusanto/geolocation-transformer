@@ -72,7 +72,8 @@ The model most commonly confuses geographically adjacent or visually similar cou
 ---
 
 ## MLOps
-(add google slide of elt pipeline here)
+<img width="2106" height="1176" alt="image" src="https://github.com/user-attachments/assets/fb5f6a67-cb2e-421e-b0d9-58ae675530a8" />
+
 - **Data pipeline**: Google Street View API → AWS S3 (WebDataset shards) → DynamoDB metadata
 - **Embedding cache**: Pre-computed CLIP embeddings stored as `.pt` file on Google Drive, incrementally updated when new shards are added
 - **Experiment tracking**: Weights & Biases — loss curves, per-country accuracy, hyperparameter sweeps
